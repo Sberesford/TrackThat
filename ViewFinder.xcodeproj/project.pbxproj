@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18372A9F22F36A8900BC27A4 /* ViewControllerButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18372A9E22F36A8900BC27A4 /* ViewControllerButtons.swift */; };
 		D95E28E122946CBF004ADE29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E28E022946CBF004ADE29 /* AppDelegate.swift */; };
 		D95E28E622946CBF004ADE29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95E28E422946CBF004ADE29 /* Main.storyboard */; };
 		D95E28E922946CBF004ADE29 /* ViewFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D95E28E722946CBF004ADE29 /* ViewFinder.xcdatamodeld */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18372A9E22F36A8900BC27A4 /* ViewControllerButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerButtons.swift; sourceTree = "<group>"; };
 		D95E28DD22946CBF004ADE29 /* ViewFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95E28E022946CBF004ADE29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D95E28E522946CBF004ADE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				D95E28E022946CBF004ADE29 /* AppDelegate.swift */,
 				D9DE348D22970A2700AE1D13 /* AddPhotoViewController.swift */,
 				D9DE348F2297138900AE1D13 /* PhotoTableViewController.swift */,
+				18372A9E22F36A8900BC27A4 /* ViewControllerButtons.swift */,
 				D9DE3491229726D700AE1D13 /* PhotoDetailViewController.swift */,
 				D95E28E422946CBF004ADE29 /* Main.storyboard */,
 				D95E28EA22946CC2004ADE29 /* Assets.xcassets */,
@@ -210,6 +213,7 @@
 				D9DE348E22970A2700AE1D13 /* AddPhotoViewController.swift in Sources */,
 				D9DE34902297138900AE1D13 /* PhotoTableViewController.swift in Sources */,
 				D9DE3492229726D700AE1D13 /* PhotoDetailViewController.swift in Sources */,
+				18372A9F22F36A8900BC27A4 /* ViewControllerButtons.swift in Sources */,
 				D95E28E122946CBF004ADE29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
