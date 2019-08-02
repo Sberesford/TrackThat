@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate{
     
     var imagePicker = UIImagePickerController()
     @IBOutlet weak var imageView: UIImageView!
@@ -17,6 +17,7 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
+        self.textField.delegate = self
         // Do any additional setup after loading the view.
     }
     @IBAction func saveButton(_ sender: Any) {
@@ -54,6 +55,16 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         imagePicker.dismiss(animated: true, completion: nil)
     }
     
+    //hide keyboard by touching outside keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?){
+        self.view.endEditing(true)
+    }
+    
+    //Presses return key
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return(true)
+    }
     
     
     
