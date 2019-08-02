@@ -99,7 +99,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.85604274520000001" green="0.89260096440000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wdA-FR-G9t"/>
                     </view>
                     <connections>
@@ -157,7 +157,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.85604274520000001" green="0.89260096440000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="QGe-9D-By7"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="VIq-YM-cXw"/>
@@ -228,7 +228,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.85604274516558621" green="0.89260096442029269" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="oGP-Mk-VHD"/>
                     </view>
                     <navigationItem key="navigationItem" id="5Ol-kz-CsR"/>
@@ -257,6 +257,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Ky1-Rf-yIL"/>
         <segue reference="4NQ-D8-xP9"/>
     </inferredMetricsTieBreakers>
 </document>
