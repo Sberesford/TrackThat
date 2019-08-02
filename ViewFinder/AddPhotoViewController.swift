@@ -60,7 +60,7 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         self.view.endEditing(true)
     }
     
-    //Presses return key
+    //Presses return key to hide keyboard
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return(true)
